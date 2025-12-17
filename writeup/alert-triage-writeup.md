@@ -44,3 +44,17 @@ Potential discussion points with the development team include:
 - Integration with cloud providers
 - Role-based access control
 - Audit logging for compliance
+
+---
+
+## Bonus: Development Action Items
+
+The following high-level action items can be discussed with the development team to support the alert triage workflow:
+
+- Agree on a common alert format so alerts coming from different sources look consistent and are easy to understand.
+- Define clear alert states such as Open, Acknowledged, Resolved, and False Positive to track how alerts move through the system.
+- Ensure alert details include enough context (affected resource, time of occurrence, reason) to help engineers investigate quickly.
+- Allow security engineers to add notes and resolution details when closing alerts for future reference.
+- Track simple metrics such as how long alerts take to be reviewed and resolved to understand product effectiveness.
+
+
